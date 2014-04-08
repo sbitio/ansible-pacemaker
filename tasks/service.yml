@@ -1,0 +1,7 @@
+---
+- name: Ensure service is started/stopped
+  service: name={{ pacemaker_service }} state={{ pacemaker_service_state }} enabled={{ pacemaker_service_enabled }}
+  tags:
+   - pacemaker
+   - service
+

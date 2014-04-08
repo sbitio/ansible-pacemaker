@@ -1,0 +1,6 @@
+---
+pacemaker_packages:
+  - pacemaker
+  - resource-agents
+  - pcs
+

@@ -1,0 +1,3 @@
+---
+- name: restart pacemaker
+  service: name={{ pacemaker_service }} state=restarted
