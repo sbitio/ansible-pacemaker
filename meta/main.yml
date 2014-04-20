@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Jonathan Araña Cruz
-  description: Configures pacemaker by using both crm or pcs.
+  description: Configure Pacemaker. Provide modules to interface with `pcs` tool.
   company: SB IT Media, S.L.
   license: license BSD
   min_ansible_version: 1.5
