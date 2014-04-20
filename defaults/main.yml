@@ -1,4 +1,4 @@
 ---
 pacemaker_service_enabled: yes
 pacemaker_service_state: started
-pacemaker_pkg_state: present
+pacemaker_package_state: present

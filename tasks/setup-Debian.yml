@@ -1,6 +1,6 @@
 ---
 - name: Ensure apt packages
-  apt: pkg={{ item }} state={{ pacemaker_pkg_state }}
+  apt: pkg={{ item }} state={{ pacemaker_package_state }}
   tags:
     - pacemaker
     - setup
